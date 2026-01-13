@@ -3,27 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AJAX Test</title>
+    <title>Baseball Player Cards</title>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    
+    <h1>⚾ Baseball Legends ⚾</h1>
 
+    <div class="card-container" id="cards"></div>
 
-    <div class="player-info">
-
-    </div>
-
-    <script>
-
-        const xhr = new XMLHttpRequest();
-
-        xhr.onload = function(){
-            let player = this.responseText;
-            player = JSON.parse(player);
-            document.getElementById("player-info").innerHTML = player.fullName + "," + player.position;
-        }
-        xhr.open("GET", "player.json");
-        xhr.send();
-    </script>
+   
+<footer>
+    Data Loaded using XMLHTTPRequest
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

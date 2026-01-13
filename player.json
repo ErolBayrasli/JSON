@@ -1,30 +1,86 @@
+
+
 {
-  
-    "fullName": "Alex Johnson",
-    "role": "Event Coordinator",
-    "school": "Central High School",
-    "idNumber": 104,
-    "birthDate": "2007-03-12",
-    "graduationYear": 2025,
 
-
-
-    
-    "activityStats": {
-      "eventsPlanned": 12,
-      "fundraisers": 5,
-      "assemblies": 3
+  "players":[
+    {
+    "fullName": "Tom Seaver",
+    "position": "pitcher",
+    "primaryTeam": "New York Mets",
+    "jerseyNumber": 41,
+    "birthDate": "1944-11-17",
+    "throws": "right-handed",
+    "hallOfFameYear": 1992,
+    "careerStats": {
+        "wins": 311,
+        "losses": 205,
+        "era": 2.86,
+        "strikeouts": 3640
     },
-    "clubs": [
-      "Student Council",
-      "National Honor Society",
-      "Art Club"
+    "teams": [
+        "Mets",
+        "Reds",
+        "White Sox",
+        "Red Sox"
     ],
-   "awards": [
-    "Leadership Award (2024)",
-    "Service Award (2023)",
-    "Student of the Month (October 2024)"
-   ]
+    "awards": [
+        "1969 World Series",
+        "Cy Young Award three times (1969, 1973, 1975)"
+    ]
+  },
 
+  {
+    "fullName": "Willie Mays",
+    "position": "center fielder",
+    "primaryTeam": "San Francisco Giants",
+    "jerseyNumber": 24,
+    "birthDate": "1931-05-06",
+    "throws": "right-handed",
+    "hallOfFameYear": 1979,
+    "careerStats": {
+        "battingAverage": 0.301,
+        "homeRuns": 660,
+        "hits": 3283,
+        "runsBattedIn": 1903
+    },
+    "teams": [
+        "New York Giants",
+        "San Francisco Giants",
+        "New York Mets"
+    ],
+    "awards": [
+       "24x All-Star",
+       "2x NL MVP (1954, 1965)",
+       "12x Gold Glove Award",
+        "World Series Champion (1954)"
+    ]
+  },
 
+  {
+    "fullName": "Hank Aaron",
+    "position": "right fielder",
+    "primaryTeam": "Atlanta Braves",
+    "jerseyNumber": 44,
+    "birthDate": "1934-02-05",
+    "throws": "right-handed",
+    "hallOfFameYear": 1982,
+    "careerStats": {
+      "hits": 3771,
+        "homeRuns": 755,
+        "runsBattedIn": 2297,
+        "battingAverage": 0.305
+    },
+    "teams": [
+        "Milwaukee Braves",
+        "Atlanta Braves",
+        "Milwaukee Brewers"
+    ],
+    "awards": [
+        "MVP Award (1957)",
+        "World Series Champion (1957)",
+        "3x Gold Glove Award",
+        "25x All-Star"
+    ]
+  }
+  ]
 }
